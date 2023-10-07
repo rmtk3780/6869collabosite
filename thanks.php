@@ -22,10 +22,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>送信完了</title>
+    <link rel="stylesheet" href="./assets/css/thanks.css">
 </head>
 <body>
-    <h1>お問い合わせ<br>ありがとうございます。</h1>
-    <p>お問い合わせが完了しました。<br><br>2~3営業日以内に担当者よりご連絡いたしますので、<br>恐れ入りますがしばらくお待ちください。</p>
+    <h1>お問い合わせ<br>ありがとうございます</h1>
+    <p>お問い合わせが完了しました。<br><br>2~3営業日以内に担当者よりご連絡いたしますので、<br>恐れ入りますがしばらくお待ちください。<br><br></p>
     
     <!-- <p>お問い合わせ内容</p>
     <p>名前: <?php echo $name; ?></p>
@@ -33,6 +34,6 @@
     <p>電話番号: <?php echo $number; ?></p>
     <p>お問い合わせ: <?php echo $content; ?></p> -->
 
-    <a href="./index.php">入力画面へ戻る</a>
+    <a href="./index.php">入力画面へ</a>
 </body>
 </html>
