@@ -49,11 +49,22 @@ if($content === ''){
         <input type="hidden" name="number" value="<?php  echo $number; ?> ">
         <input type="hidden" name="content" value="<?php  echo $content; ?> ">
 
-        <button type="button" onclick="history.back()">戻る</button>
+        <div class="big-container">
+            <div class="button-container">
+            <button type="button" onclick="history.back()">戻る</button>
+            </div>
+            
+            <?php
+            $buttonStyle = ($name !== '' && $email !== '' && $number !== '' && $content !== '') ? 'background-color: #ccc; color: white;' : 'background-color: #ccc; color: white; cursor: not-allowed;';
+            ?>
 
-        <?php if($name !== '' && $email !== '' && $number !== ''&& $content !== ''): ?> 
-            <input type="submit" value="送信">
-        <?php endif ?>
+            <?php if ($name !== '' && $email !== '' && $number !== '' && $content !== ''): ?>
+                <div class="button-container">
+                    <button type="submit" style="<?php echo $buttonStyle; ?>">送信</button>
+                </div>
+            <?php endif; ?>
+        </div>
+
     </form>
 </body>
 </html>

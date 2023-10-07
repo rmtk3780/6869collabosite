@@ -46,7 +46,7 @@ textarea:focus::placeholder {
 }
 
 .button-container input[type="submit"] {
-    background-color: #05FDFD;
+    background-color: #ccc;
     color: white;
     padding: 10px 20px;
     width: 100px; /* 任意の幅に調整 */

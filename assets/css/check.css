@@ -7,3 +7,25 @@ body{
     margin-top: 50px;
     text-align: center;
 }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* 上部のマージンを追加 */
+    /* margin-left: 140px; */
+}
+
+.button-container button {
+    background-color: #ccc;
+    color: white;
+    padding: 10px 20px;
+    width: 100px; /* 任意の幅に調整 */
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.big-container{
+    display: flex;
+    justify-content: center;
+}
