@@ -33,10 +33,11 @@ if($content === ''){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>入力内容確認</title>
+    <link rel="stylesheet" href="./assets/css/check.css">
 </head>
 <body>
     <h1>お問い合わせ情報確認</h1>
-    <p>この内容でよろしければ送信ボタンを押してください。</p>
+    <p>この内容でよろしければ送信ボタンを押してください。<br><br></p>
     <p>名前:<?php  echo $name_result; ?></p>
     <p>メールアドレス:<?php  echo $email_result; ?></p>
     <p>電話番号:<?php  echo $number_result; ?></p>

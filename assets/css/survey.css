@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+form div label {
+    margin-bottom: 5px;
+    text-align: left; /* ラベルのテキストを左寄せ */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* スタイルを追加して、フォーカス時にplaceholderが消えるようにする */
+input:focus::placeholder,
+textarea:focus::placeholder {
+    color: transparent;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* 上部のマージンを追加 */
+    margin-left: 140px;
+}
+
+.button-container input[type="submit"] {
+    background-color: #05FDFD;
+    color: white;
+    padding: 10px 20px;
+    width: 100px; /* 任意の幅に調整 */
+    border: none;
+    cursor: pointer;
+}
