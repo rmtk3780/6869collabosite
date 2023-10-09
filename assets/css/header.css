@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: #05FDFD;
+    font-weight: 700;
+    font-size: 25px;
+}
+/* headerの編集 */
+a:hover{
+    opacity: 0.5;
+    background-color:yellow;
+}
+
+.site{
+    display: flex;
+    align-items: center;
+}
+.site img{
+    width: 80px;
+    height: 100%;
+    margin-right: 18px;
+}
+.corp{
+    color: #333333;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 1.4;
+}
+.desc{
+    color: gray;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1.4;
+}
+
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1500px;
+    height: 80px;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.ul{
+    display: flex;
+    list-style: none;
+}
+
+.QA{
+    border: 0.1px solid #05FDFD;
+}
+
+li{
+    margin-left: 20px;
+    border-left: 0.5px solid #05FDFD;
+    border-right: 0.5px solid #05FDFD;
+}
+
+.fa-solid {
+    padding: 0 5px 0 5px;
+}
