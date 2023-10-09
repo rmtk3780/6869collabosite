@@ -4,7 +4,6 @@
 }
 
 header{
-    padding-bottom: 10px;
     border-bottom: 1px solid black;
 }
 
@@ -13,7 +12,8 @@ a{
     text-decoration: none;
     color: #05FDFD;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
+    /* margin-right: 10px; */
 }
 /* headerの編集 */
 a:hover{
@@ -28,7 +28,7 @@ a:hover{
 .site img{
     width: 80px;
     height: 100%;
-    margin-right: 18px;
+    margin-left: 18px;
 }
 .corp{
     color: #333333;
@@ -46,9 +46,11 @@ a:hover{
 
 .container{
     width: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     max-width: 1500px;
     height: 80px;
+    margin-right: 50px;
+
 }
 
 .header .container{
@@ -61,16 +63,14 @@ a:hover{
 .ul{
     display: flex;
     list-style: none;
-}
-
-.QA{
-    border: 0.1px solid #05FDFD;
+    margin-right: 20px;
 }
 
 li{
     margin-left: 20px;
     border-left: 0.5px solid #05FDFD;
     border-right: 0.5px solid #05FDFD;
+    /* margin: 0 auto; */
 }
 
 .fa-solid {
