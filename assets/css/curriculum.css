@@ -14,10 +14,12 @@
 }
 
 .title {
-  color: #ffffff;
-  padding-left: 32px;
-  font-size: 48px;
-  text-shadow: 2px 2px 4px rgb(6, 6, 6);
+  color: black;
+  /* padding-left: 32px; */
+  text-align: center;
+  font-size: 50px;
+  padding: 56px 32px;
+  text-shadow: 2px 2px 4px rgb(180, 176, 176);
 }
 
 
