@@ -3,8 +3,7 @@
 .logo{
     font-size: 20px;
     width: 100%; /* 画像の幅を指定 */
-    height: 630px; /* 高さは自動調整（アスペクト比を保持） */
-
+    height: 620px; /* 高さは自動調整（アスペクト比を保持） */
 }
 
 .description{
@@ -52,7 +51,7 @@
     font-weight: bold;
     /* background-color: #a8ffff; */
     position: absolute;
-    bottom: -40px; /* 画像の真下に配置 */
+    /* bottom: -40px; 画像の真下に配置 */
     left: 0; /* 画面の左端に配置 */
     width: 100%; /* 幅を100%に設定 */
     background-color: rgba(255, 255, 255, 0.7); /* テキストの背景色 */
@@ -199,8 +198,6 @@
     font-size: 40px;
 }
 footer{
-    margin-top: 300px;
-    background-color: #a8ffff;
     position: relative;
 }
 

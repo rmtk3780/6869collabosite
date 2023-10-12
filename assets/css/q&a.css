@@ -1,6 +1,6 @@
 .photo {
         width: auto;
-        height: 700px;
+        height: 620px;
         background-image: url("../img/q&a.jpg");
         background-size: cover;
         background-position: center;
@@ -18,7 +18,7 @@
 
 .container h1{
     position: relative;
-    bottom: 50px;
+    bottom: 10px;
     font-size: 50px;
 }
 
@@ -30,7 +30,7 @@
 
 .content {
     text-align: center;
-    background-color: #a8ffff;
+    /* background-color: #a8ffff; */
     padding: 10px;
     font-size: 18px;
 }
