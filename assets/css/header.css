@@ -8,13 +8,16 @@ header{
 }
 
 a{
-    display: block;
-    text-decoration: none;
+    /* display: block; */
+    /* text-decoration: none; */
     color: #05FDFD;
     font-weight: 700;
     font-size: 20px;
-    /* margin-right: 10px; */
+    margin-right: 10px;
 }
+
+nav.nav {position: relative;right: 200px;}
+
 /* headerの編集 */
 a:hover{
     opacity: 0.5;

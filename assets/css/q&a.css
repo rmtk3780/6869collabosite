@@ -1,6 +1,6 @@
 .photo {
         width: auto;
-        height: 700px;
+        height: 620px;
         background-image: url("../img/q&a.jpg");
         background-size: cover;
         background-position: center;
@@ -10,15 +10,15 @@
         align-items: center; 
 }
 
-.container {
+.container1 {
     text-align: center;
     position: relative;
     top: 10px;
 }
 
-.container h1{
+.container1 h1{
     position: relative;
-    bottom: 50px;
+    bottom: 10px;
     font-size: 50px;
 }
 
@@ -26,13 +26,6 @@
     background-color: #a8ffff;
     font-size: 30px;
     font-weight: bolder;
-}
-
-.content {
-    text-align: center;
-    background-color: #a8ffff;
-    padding: 10px;
-    font-size: 18px;
 }
 
 .flow .step {

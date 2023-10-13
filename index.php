@@ -12,6 +12,9 @@
         }
     </style>
     <link rel="stylesheet" href="./assets/css/survey.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/nittei.css">
+    <link href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" rel="stylesheet">
 </head>
 <body>
     <h1>お問い合わせフォーム</h1>
