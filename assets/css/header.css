@@ -4,19 +4,17 @@
 }
 
 header{
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
 }
 
 a{
     /* display: block; */
-    /* text-decoration: none; */
-    color: #05FDFD;
+    text-decoration: none;
+    color: #000000;
     font-weight: 700;
     font-size: 20px;
     margin-right: 10px;
 }
-
-nav.nav {position: relative;right: 200px;}
 
 /* headerの編集 */
 a:hover{
@@ -71,8 +69,8 @@ a:hover{
 
 li{
     margin-left: 20px;
-    border-left: 0.5px solid #05FDFD;
-    border-right: 0.5px solid #05FDFD;
+    border-left: 0.5px solid #000000;
+    border-right: 0.5px solid #000000;
     /* margin: 0 auto; */
 }
 

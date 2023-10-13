@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>お問い合わせフォーム</title>
+    <title>お問い合わせフォーム | ENGrid</title>
 
     <style>
         form div label {
@@ -16,6 +16,32 @@
     <link rel="stylesheet" href="./assets/css/nittei.css">
     <link href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" rel="stylesheet">
 </head>
+
+<header class="header">
+        <!-- <div class="container">
+            <a href="#" class="site">
+                <img src="./assets/img/header-logo.png">
+                <div class="content">
+                    <p class="corp">ENGrid</p>
+                    <p class="desc">Engineering<br>xEnglish</p>
+                </div>
+            </a> -->
+
+            <nav class="nav">
+                <ul class="ul">
+                    <p style="text-align: center"></p>
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i>ホーム</a></li>
+                    <li><a href="information.html"><i class="fa-solid fa-pen"></i>会社概要</a></li>
+                    <li><a href="curriculum.html"><i class="fa-solid fa-file-pen"></i>カリキュラム</a></li>
+                    <li><a href="date$schedule.html"><i class="fa-solid fa-hand-holding-dollar"></i>日程・料金</a></li>
+                    <li><a href="q&a.html">受講までの流れ・Q&A</a></li>
+                    <li><a href="index.php"><i class="fa-solid fa-message"></i>お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
 <body>
     <h1>お問い合わせフォーム</h1>
     <form method="POST" action="./check.php">
