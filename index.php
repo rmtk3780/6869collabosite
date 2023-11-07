@@ -13,36 +13,35 @@
     </style>
     <link rel="stylesheet" href="./assets/css/survey.css">
     <link rel="stylesheet" href="./assets/css/header.css">
-    <link rel="stylesheet" href="./assets/css/nittei.css">
     <link href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" rel="stylesheet">
 </head>
 
 <header class="header">
-        <!-- <div class="container">
-            <a href="#" class="site">
-                <img src="./assets/img/header-logo.png">
-                <div class="content">
-                    <p class="corp">ENGrid</p>
-                    <p class="desc">Engineering<br>xEnglish</p>
-                </div>
-            </a> -->
+    <div class="head-container">
+        <a href="#" class="head-site">
+            <img src="./assets/img/header-logo.png">
+            <div class="head-content">
+                <p class="head-corp">ENGrid</p>
+                <p class="head-desc">Engineering<br>x<br>English</p>
+            </div>
+        </a>
 
-            <nav class="nav">
-                <ul class="ul">
-                    <p style="text-align: center"></p>
-                    <li><a href="index.html"><i class="fa-solid fa-house"></i>ホーム</a></li>
-                    <li><a href="information.html"><i class="fa-solid fa-pen"></i>会社概要</a></li>
-                    <li><a href="curriculum.html"><i class="fa-solid fa-file-pen"></i>カリキュラム</a></li>
-                    <li><a href="date$schedule.html"><i class="fa-solid fa-hand-holding-dollar"></i>日程・料金</a></li>
-                    <li><a href="q&a.html">受講までの流れ・Q&A</a></li>
-                    <li><a href="index.php"><i class="fa-solid fa-message"></i>お問い合わせ</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        <nav class="head-nav">
+            <ul class="head-ul">
+                <li><a href="index.html"><i class="fa-solid fa-house"></i>ホーム</a></li>
+                <li><a href="information.html"><i class="fa-solid fa-pen"></i>会社概要</a></li>
+                <li><a href="curriculum.html"><i class="fa-solid fa-file-pen"></i>カリキュラム</a></li>
+                <li><a href="date$schedule.html"><i class="fa-solid fa-hand-holding-dollar"></i>日程・料金</a></li>
+                <li><a href="q&a.html"><i class="fas fa-question-circle"></i>受講までの流れ・Q&A</a></li>
+                <li><a href="contact.html"><i class="fa-solid fa-message"></i>お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
 
 <body>
+  <div class="form-body">
     <h1>お問い合わせフォーム</h1>
     <form method="POST" action="./check.php">
         <div class="name">
@@ -59,11 +58,12 @@
         </div>
         <div>
             <p>お問い合わせ内容</p>
-            <textarea name="content"  cols="30" rows="10" placeholder="面談をご希望の方は希望日時を入力してください。"></textarea>
+            <textarea name="content"  cols="30" rows="10" placeholder="面談をご希望の方は希望日時を入力してください。 資料請求をご希望の方はその旨を入力してください。"></textarea>
         </div>
         <div class="button-container">
             <input type="submit" value="送信">
         </div>
     </form>
+  </div>
 </body>
 </html>

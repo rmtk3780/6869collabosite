@@ -16,6 +16,7 @@ h1{
     line-height: 1.5;
     margin-bottom: 40px;
     text-align: center;
+    text-shadow: 2px 2px 4px rgb(180, 176, 176);
 }
 h2{
     margin-top: 40px;
@@ -25,12 +26,7 @@ h2{
     line-height: 1.5;
     text-align: center;
 }
-p{
-    font-size: 18px;
-    line-height: 1.8;
-    position: relative;
-    top: 20px;
-}
+
 .subtitle{
     color: #05FDFD;
     font-size: 18px;
