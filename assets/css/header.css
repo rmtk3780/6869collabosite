@@ -3,17 +3,14 @@
     padding: 0;
 }
 
-header{
-    border-bottom: 1px solid black;
-}
-
 a{
     /* display: block; */
     text-decoration: none;
-    color: #000000;
+    color: #006699;
     font-weight: 700;
     font-size: 20px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* headerの編集 */
@@ -22,52 +19,60 @@ a:hover{
     background-color:yellow;
 }
 
-.site{
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.head-site{
     display: flex;
     align-items: center;
 }
-.site img{
+.head-site img{
     width: 80px;
     height: 100%;
     margin-left: 18px;
 }
-.corp{
-    color: #333333;
+.head-corp{
+    color: #00cccc;
     font-size: 25px;
     font-weight: 900;
     line-height: 1.4;
 }
-.desc{
+.head-desc{
     color: gray;
     font-size: 15px;
     font-weight: 900;
-    line-height: 1.4;
+    line-height: 0.9;
 }
 
+.head-content {
+    text-align: center;
+}
 
-.container{
+.head-container{
     width: 100%;
-    /* margin: 0 auto; */
-    max-width: 1500px;
-    height: 80px;
     margin-right: 50px;
-
-}
-
-.header .container{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 100px;
+    justify-content: space-between; /* ロゴとナビゲーションメニューをコンテナの両端に配置 */
+    height: 95px;
 }
 
-.ul{
+.head-nav {
+    margin-right: auto; /* ナビゲーションメニューを右寄せに */
+}
+
+.head-ul{
     display: flex;
     list-style: none;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
-li{
+.head-li{
     margin-left: 20px;
     border-left: 0.5px solid #000000;
     border-right: 0.5px solid #000000;

@@ -1,0 +1,76 @@
+footer{
+    position: relative;
+}
+
+.import{
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom:80px ;
+    margin-top: 80px;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center; 子要素を垂直方向中央に配置
+}
+
+.contact-container img {
+    margin-right: 12px; /* 画像とリンクの間に余白を設定 */
+}
+
+.otoiawase{
+    display: flex;
+    flex-direction: row;  
+    justify-content: flex-start;  
+    margin-left: 350px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+
+
+ul.footer-menu li {
+    margin-right: 60px; /* リストアイテム間のスペースを調整 */
+    list-style: none;
+}
+
+/* 最後のリストアイテムにはマージンを適用しない */
+ul.footer-menu li:last-child {
+    margin-right: 0;
+}
+
+#social-links img {
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+#social-links {
+    display: flex;
+    justify-content: flex-end; /* 画像を右端に寄せる */
+    margin-left: 600px; /* お問い合わせリンクからの間隔を調整 */
+}
+
+.otoisyasin {
+    position: absolute; /* 画像の位置を絶対位置に設定 */
+    left: 5%; /* 左端に配置 */
+    top: 28%;    
+    transform: translateY(-50%); /* 上下中央に配置 */
+    width: 200px; /* 画像の幅を調整（適宜変更） */
+    
+
+}

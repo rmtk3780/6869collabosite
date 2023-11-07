@@ -20,11 +20,13 @@
     position: relative;
     bottom: 10px;
     font-size: 50px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 4px rgb(180, 176, 176);
 }
 
 .section-title {
     background-color: #a8ffff;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bolder;
 }
 
@@ -39,7 +41,7 @@
     font: inherit;
     font-size: 18px;
     margin: 0;
-    padding: 0;
+    padding: 50px;
     vertical-align: baseline;
     background-color: #a8ffff;
 }
@@ -51,6 +53,7 @@
 .QA_section {
     text-align: center;
     background-color: #a8ffff;
+    font-size: 40px;
 }
 
 .QA_title {
