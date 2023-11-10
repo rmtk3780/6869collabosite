@@ -1,13 +1,13 @@
 .photo {
-        width: auto;
-        height: 620px;
-        background-image: url("../img/q&a.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: flex;
-        justify-content: center;
-        align-items: center; 
+    width: auto;
+    height: 620px;
+    background-image: url("../img/q&a.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container1 {
@@ -16,7 +16,7 @@
     top: 10px;
 }
 
-.container1 h1{
+.container1 h1 {
     position: relative;
     bottom: 10px;
     font-size: 50px;
@@ -71,5 +71,4 @@
 
 h3 p {
     text-align: left;
-  }
-  
+}

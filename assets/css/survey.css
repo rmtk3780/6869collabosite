@@ -23,7 +23,8 @@ form div {
 
 form div label {
     margin-bottom: 5px;
-    text-align: left; /* ラベルのテキストを左寄せ */
+    text-align: left;
+    /* ラベルのテキストを左寄せ */
 }
 
 form input[type="text"],
@@ -44,7 +45,8 @@ textarea:focus::placeholder {
 .button-container {
     display: flex;
     justify-content: center;
-    margin-top: 10px; /* 上部のマージンを追加 */
+    margin-top: 10px;
+    /* 上部のマージンを追加 */
     margin-left: 140px;
 }
 
@@ -52,7 +54,8 @@ textarea:focus::placeholder {
     background-color: #ccc;
     color: white;
     padding: 10px 20px;
-    width: 100px; /* 任意の幅に調整 */
+    width: 100px;
+    /* 任意の幅に調整 */
     border: none;
     cursor: pointer;
 }

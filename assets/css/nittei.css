@@ -1,33 +1,38 @@
-.logo{
+.logo {
     font-size: 20px;
-    width: 1517px; /* 画像の幅を指定 */
-    height: 620px; /* 高さは自動調整（アスペクト比を保持） */
+    width: 1517px;
+    /* 画像の幅を指定 */
+    height: 620px;
+    /* 高さは自動調整（アスペクト比を保持） */
 }
 
-.description{
-    text-align: center; 
-    font-size: 40px;  
-    color:#000000 ;
+.description {
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
     font-weight: 800;
     padding-bottom: 20px;
 }
 
 
 #schedule {
-    background-color:#a8ffff; 
+    background-color: #a8ffff;
 }
 
 
 
 #schedule img.my-image1 {
     /* border: 2px solid #000; 2ピクセルの黒色の境界線を設定 */
-    padding:20px; /* 枠内の余白を設定（適宜変更） */
+    padding: 20px;
+    /* 枠内の余白を設定（適宜変更） */
     /* background-color: aquamarine; */
 }
 
-.my-image1{
-    display: block; /* 画像をブロック要素として表示 */
-    margin: auto; /* 左右のマージンを自動で中央揃え */
+.my-image1 {
+    display: block;
+    /* 画像をブロック要素として表示 */
+    margin: auto;
+    /* 左右のマージンを自動で中央揃え */
     width: 40%;
     margin-top: 250px;
     margin-bottom: 50px;
@@ -39,7 +44,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto; /* 親要素の高さを適切な値に設定 */
+    height: auto;
+    /* 親要素の高さを適切な値に設定 */
 
 }
 
@@ -50,38 +56,45 @@
     /* background-color: #a8ffff; */
     position: absolute;
     /* bottom: -40px; 画像の真下に配置 */
-    left: 0; /* 画面の左端に配置 */
-    width: 100%; /* 幅を100%に設定 */
-    background-color: rgba(255, 255, 255, 0.7); /* テキストの背景色 */
+    left: 0;
+    /* 画面の左端に配置 */
+    width: 100%;
+    /* 幅を100%に設定 */
+    background-color: rgba(255, 255, 255, 0.7);
+    /* テキストの背景色 */
     text-shadow: 2px 2px 4px rgb(180, 176, 176);
-    display: block; /* 背景色をテキストの高さに合わせる */
+    display: block;
+    /* 背景色をテキストの高さに合わせる */
 }
 
 
 #ryoukin {
-    border: 2px 0px solid #000; /* 2ピクセルの黒色の境界線を設定 */
-    
+    border: 2px 0px solid #000;
+    /* 2ピクセルの黒色の境界線を設定 */
+
     margin-top: 150px;
-    background-color:peachpuff;
-    }
+    background-color: peachpuff;
+}
 
 
 
 
-.my-image2{
-    display: block; /* 画像をブロック要素として表示 */
-    margin: 0 auto; /* 左右のマージンを自動で中央揃え */
+.my-image2 {
+    display: block;
+    /* 画像をブロック要素として表示 */
+    margin: 0 auto;
+    /* 左右のマージンを自動で中央揃え */
     width: 760px;
     margin-top: 150px;
     margin-bottom: 100px;
 }
 
 
-.title3{
+.title3 {
     text-align: center;
     margin-top: 100px;
     font-size: 45px;
-    
+
 }
 
 .schedule-item {
@@ -94,17 +107,19 @@
 
 
 
-.title4{
+.title4 {
     text-align: center;
     margin-top: 200px;
     font-size: 45px;
-    
+
 }
 
 
-.my-image3{
-    display: block; /* 画像をブロック要素として表示 */
-    margin: auto; /* 左右のマージンを自動で中央揃え */
+.my-image3 {
+    display: block;
+    /* 画像をブロック要素として表示 */
+    margin: auto;
+    /* 左右のマージンを自動で中央揃え */
     width: 40%;
     margin-top: 150px;
     margin-bottom: 50px;
@@ -112,9 +127,11 @@
     text-align: center;
 }
 
-.my-image4{
-    display: block; /* 画像をブロック要素として表示 */
-    margin: auto; /* 左右のマージンを自動で中央揃え */
+.my-image4 {
+    display: block;
+    /* 画像をブロック要素として表示 */
+    margin: auto;
+    /* 左右のマージンを自動で中央揃え */
     width: 40%;
     margin-top: 150px;
     margin-bottom: 50px;
@@ -124,8 +141,10 @@
 
 
 .image-container {
-    position: relative; /* 相対位置指定 */
-    display: inline-block; /* インラインブロック要素として表示 */
+    position: relative;
+    /* 相対位置指定 */
+    display: inline-block;
+    /* インラインブロック要素として表示 */
 }
 
 /* 画像キャプション（テキスト）のスタイル */
@@ -134,8 +153,10 @@
     position: absolute;
     /* bottom: 10px;
     left: 10px; */
-    top: 50%; /* 上から50%の位置に配置 */
-    left: 50%; /* 左から50%の位置に配置 */
+    top: 50%;
+    /* 上から50%の位置に配置 */
+    left: 50%;
+    /* 左から50%の位置に配置 */
     background-color: rgba(255, 255, 255, 0.7);
     padding: 5px;
     font-size: 18px;
@@ -154,7 +175,7 @@
     position: relative;
 }
 
-.image-caption2{
+.image-caption2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -167,8 +188,10 @@
     position: absolute;
     /* bottom: 10px;
     left: 10px; */
-    top: 50%; /* 上から50%の位置に配置 */
-    left: 50%; /* 左から50%の位置に配置 */
+    top: 50%;
+    /* 上から50%の位置に配置 */
+    left: 50%;
+    /* 左から50%の位置に配置 */
     background-color: rgba(255, 255, 255, 0.7);
     padding: 5px;
     font-size: 18px;
@@ -187,7 +210,7 @@
     position: relative;
 }
 
-.image-caption3{
+.image-caption3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
