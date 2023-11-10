@@ -5,12 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>お問い合わせフォーム | ENGrid</title>
 
-    <style>
-        form div label {
-            text-align: left;
-            margin: 0;
-        }
-    </style>
     <link rel="stylesheet" href="./assets/css/survey.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" rel="stylesheet">
@@ -18,7 +12,7 @@
 
 <header class="header">
     <div class="head-container">
-        <a href="#" class="head-site">
+        <a href="http://127.0.0.1:5500/index.html" class="head-site">
             <img src="./assets/img/header-logo.png">
             <div class="head-content">
                 <p class="head-corp">ENGrid</p>
@@ -28,12 +22,12 @@
 
         <nav class="head-nav">
             <ul class="head-ul">
-                <li><a href="index.html"><i class="fa-solid fa-house"></i>ホーム</a></li>
-                <li><a href="information.html"><i class="fa-solid fa-pen"></i>会社概要</a></li>
-                <li><a href="curriculum.html"><i class="fa-solid fa-file-pen"></i>カリキュラム</a></li>
-                <li><a href="date$schedule.html"><i class="fa-solid fa-hand-holding-dollar"></i>日程・料金</a></li>
-                <li><a href="q&a.html"><i class="fas fa-question-circle"></i>受講までの流れ・Q&A</a></li>
-                <li><a href="contact.html"><i class="fa-solid fa-message"></i>お問い合わせ</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html"><i class="fa-solid fa-house"></i>ホーム</a></li>
+                <li><a href="http://127.0.0.1:5500/information.html"><i class="fa-solid fa-pen"></i>会社概要</a></li>
+                <li><a href="http://127.0.0.1:5500/curriculum.html"><i class="fa-solid fa-file-pen"></i>カリキュラム</a></li>
+                <li><a href="http://127.0.0.1:5500/date$schedule.html"><i class="fa-solid fa-hand-holding-dollar"></i>日程・料金</a></li>
+                <li><a href="http://127.0.0.1:5500/q&a.html"><i class="fas fa-question-circle"></i>受講までの流れ・Q&A</a></li>
+                <li><a href="http://localhost/6869collabosite/"><i class="fa-solid fa-message"></i>お問い合わせ</a></li>
             </ul>
         </nav>
     </div>

@@ -3,18 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* header2 {
-    height: 12vh;
-    background: #fff;
-    display: flex;
-    align-items: center;
-} */
 
 .top-img {
     position: relative;
-    text-align: center;
-    
-  }
+    text-align: center;  
+}
 
   .button-container {
     position: absolute; /* ボタンの位置を設定 */

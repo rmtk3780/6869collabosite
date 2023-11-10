@@ -34,6 +34,6 @@
     <p>電話番号: <?php echo $number; ?></p>
     <p>お問い合わせ: <?php echo $content; ?></p> -->
 
-    <a href="./index.php">入力画面へ</a>
+    <a href="http://localhost/6869collabosite/">入力画面へ</a>
 </body>
 </html>
